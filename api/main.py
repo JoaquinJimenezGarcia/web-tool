@@ -54,5 +54,3 @@ def site(site):
     site_result = json.dumps(site_result)  
     
     return site_result
-
-app.run(debug=True)

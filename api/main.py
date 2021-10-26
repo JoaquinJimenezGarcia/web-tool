@@ -55,4 +55,4 @@ def site(site):
     
     return site_result
 
-app.run(host='0.0.0.0', port=65432)
+app.run(port=65432)

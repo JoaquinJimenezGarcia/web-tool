@@ -8,6 +8,11 @@ from urllib.error import URLError, HTTPError
 app = Flask(__name__)
 CORS(app)
 
+
+@app.route('/')
+def index():
+    return 'Status OK'
+
 @app.route('/<user>')
 def index(user):
     # Opening JSON file

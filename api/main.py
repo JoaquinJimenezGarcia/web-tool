@@ -10,7 +10,7 @@ CORS(app)
 
 
 @app.route('/')
-def index():
+def root():
     return 'Status OK'
 
 @app.route('/<user>')
